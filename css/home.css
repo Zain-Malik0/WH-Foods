@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-  background: url("images/hero-image.jpg");
+  background: url("../images/hero-image.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,3 +258,4 @@
   max-height: 300px;
 
 }
+

@@ -1,0 +1,155 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/checkout.css">
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <img src="images/logo.png" class="logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-underline mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i> Cart
+                <span class="navbar-cart-quantity"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Checkout Section -->
+    <section class="checkout">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-lg-8 order-summary order-2 order-sm-1">
+            <div class="deliveryDate-container">
+              <div class="delivery-date">Review your order</div>
+            </div>
+            <div class="products-container">
+
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 payment-summary order-1 order-sm-2">
+            <div class="summary-container"></div>
+            <div class="summary-form-container">
+              <form id="checkout-form">
+                <div class="row g-3">
+                  <div class="col">
+                    <input type="text" required class="form-control" placeholder="First name" aria-label="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" required class="form-control" placeholder="Last name" aria-label="Last name">
+                  </div>
+                </div>
+
+  
+                <div class="col-md-12">
+                  <input type="email" required placeholder="Email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <input type="text" required class="form-control" id="inputAddress" placeholder="Address">
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Address 2 (Apartment, studio, or floor)">
+                </div>
+                <div class="col-md-12">
+                  <select id="inputState" required placeholder="Email" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="row g-3">
+                  <div class="col">
+                    <input type="text"required placeholder="City" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col">
+                    <input type="text"required placeholder="Zip" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn place-your-order-btn">Place your order</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="column col-12 col-md-3 col-sm-6 info-col">
+            <div class="logo">WH Foods</div>
+            <div>Fuel your body, nourish your soul. Shop healthy today and build a lifestyle that lasts a lifetime</div>
+          </div>
+          <div class="column col-12 col-md-3 col-sm-6 contact-col">
+            <h4>Office</h4>
+            <p>Flat 4, Empire Heights<br> Gulberg Greens, Islamabad</p>
+            <p>+92 345 6789012</p>
+            <p>info@whfoods.com</p>
+          </div>
+          <div class="column col-12 col-md-3 col-sm-6 links-col">
+            <h4>Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="shop.html">Shop</a>
+            <a href="checkout.html">My Cart</a>
+            <a href="policies.html">Private Policy</a>
+            <a href="policies.html">Terms & Condition</a>
+            <a href="policies.html">Cookie Policy</a>
+          </div>
+          <div class="column col-12 col-md-3 col-sm-6 extra-col">
+            <form class="form">
+              <h4>Subscribe</h4>
+              <h6>to our newsletter</h6>
+              <input type="email" required>
+              <button type="submit">Submit</button>
+            </form>
+
+            <div class="icons">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-whatsapp"></i>
+              <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row rights">
+          <div class="div">© 2025 WH Foods. Designed with ❤️ by <a class="github-link" href="https://github.com/Zain-Malik0" target="_blank">Zain.</a></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/general.js" type="module"></script>
+    <script type="module" src="./js/checkout/checkout.js"></script>
+  </body>
+  </html>
